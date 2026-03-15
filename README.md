@@ -1,4 +1,5 @@
 To visit my website, please go to 
-<a href="https://Yukode.github.io/Home" style="color:cyan; font-weight:bold;">Yukode.github.io/Home</a> 
+<a href="https://Yukode.github.io/Home" target="_blank">
+  <span style="color:cyan; font-weight:bold; text-decoration:none;">Yukode.github.io/Home</span>
+</a>
 for viewing.
-![Home](incognito/assets/scratch/Home.png)

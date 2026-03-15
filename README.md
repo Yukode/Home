@@ -1,5 +1,1 @@
-To visit my website, please go to 
-<a href="https://Yukode.github.o/Home" target="_blank">
-  <span style="color:cyan; font-weight:bold; text-decoration:none;">Yukode.github.io/Home</span>
-</a>
-for viewing.
+To visit my website, please go to **[Yukode.github.io/Home](https://Yukode.github.io/Home)** for viewing.

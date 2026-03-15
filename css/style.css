@@ -1,0 +1,132 @@
+/* Main - index.html */
+main {
+    flex: 1;
+    padding: 20px 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #e4e4e4;
+    line-height: 1.6;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    background: #111;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Logo */
+header h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Navigation links */
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent; /* invisible by default */
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 2px solid #ffffff; /* instant underline on hover */
+}
+
+nav a.active {
+    color: white;
+    border-bottom: 2px solid #ffffff; /* underline for active page */
+}
+
+/* Hero Section */
+.hero {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 56px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.accent {
+    color: #00f7ff;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #f0f0f0;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    display: inline-flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 70px;
+    border-radius: 6px;                 
+    background-color: #111;        
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    overflow: hidden;                  
+    cursor: pointer;
+    border: none;
+}
+
+.hero-button:hover {
+    transform: scale(1.2);                    /* zoom-in effect */
+    box-shadow: 0 0px 40px rgba(0, 255, 255, 0.4);
+    background-color: #111; 
+    color:#ffffff             
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 12px;
+    background: #111;
+}
